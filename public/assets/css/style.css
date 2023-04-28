@@ -1,0 +1,22 @@
+body {
+    color: #f76c6c;
+}
+
+.yk-button-login {
+    border-radius: 5px;
+    background-image: linear-gradient(
+        to bottom,
+        #d9c41c,
+        #e1b928,
+        #e6af34,
+        #e9a63f,
+        #e99d4a,
+        #e99d4a,
+        #e99d4a,
+        #e99d4a,
+        #e9a63f,
+        #e6af34,
+        #e1b928,
+        #d9c41c
+    );
+}

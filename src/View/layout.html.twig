@@ -1,0 +1,44 @@
+<!doctype html>
+<html
+	lang="fr">
+	<head>
+		<meta
+			charset="utf-8">
+		<meta
+			http-equiv="x-ua-compatible"
+			content="ie=edge">
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1">
+		<link
+			rel="icon"
+			href="/assets/images/favicon.png">
+
+		<title>
+			{% block title %}
+			{% endblock %}
+		</title>
+		{% block stylesheet %}
+			<!-- UIkit CSS -->
+			<link
+				rel="stylesheet"
+				href="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/css/uikit.min.css"/>
+			<link
+				rel="stylesheet"
+				href="/assets/css/style.css">
+		{% endblock %}
+	</head>
+
+	<body>
+		{% block content %}
+		{% endblock %}
+		{% block javascript %}
+			<!-- UIkit JS -->
+			<script
+				src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit.min.js"></script>
+			<script
+				src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit-icons.min.js"></script>
+
+		{% endblock %}
+	</body>
+</html>

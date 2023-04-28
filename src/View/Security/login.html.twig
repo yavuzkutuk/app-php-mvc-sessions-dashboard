@@ -1,0 +1,63 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+	Login
+{% endblock %}
+
+{% block content %}
+	<div
+		class="uk-position-center">
+		<div
+			class="uk-card uk-card-default uk-card-body">
+			<form
+				method="post">
+				<div
+					class="uk-margin">
+					<h2>
+						Login
+					</h2>
+				</div>
+				<div
+					class="uk-margin">
+					<div
+						class="uk-inline">
+						<span
+							class="uk-form-icon"
+							uk-icon="icon: user"></span>
+						<input
+							class="uk-input"
+							type="text"
+							aria-label="Not clickable icon"
+							name="email">
+					</div>
+				</div>
+
+				<div
+					class="uk-margin">
+					<div
+						class="uk-inline">
+						<span
+							class="uk-form-icon uk-form-icon-flip"
+							uk-icon="icon: lock"></span>
+						<input
+							class="uk-input"
+							type="password"
+							aria-label="Not clickable icon"
+							name="password">
+					</div>
+				</div>
+
+				<div
+					class="uk-margin">
+					<button
+						class="uk-button yk-button-login"
+						type="submit"
+						name="submit">
+						Go !
+					</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+{% endblock %}
